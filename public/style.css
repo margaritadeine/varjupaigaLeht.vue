@@ -366,3 +366,11 @@ post-links {
 #missing, #animal-type, #breed-type, #subject, #finding-date, #chosen, #add-file, #personal-epost, #personal-tel {
     margin-bottom: 10px;
 }
+
+.active {
+    background-color: #DC9344;
+    color: white;
+    padding: 10px;
+    border: 0.5px;
+    border-radius: 15px;
+}

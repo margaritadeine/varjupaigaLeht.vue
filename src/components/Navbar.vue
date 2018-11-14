@@ -12,13 +12,13 @@
 
 <nav>
     <ul id="nav">
-        <li><router-link to="/">Avaleht</router-link></li>
-        <li><router-link to="/loomad">Loomad varjupaigas</router-link></li>
-        <li><router-link to="/kaotatud">Kaotatud loomad</router-link></li>
+        <li><router-link to="/" exact-active-class="active">Avaleht</router-link></li>
+        <li><router-link to="/loomad" exact-active-class="active">Loomad varjupaigas</router-link></li>
+        <li><router-link to="/kaotatud" exact-active-class="active">Kaotatud loomad</router-link></li>
 
-         <li><router-link to="/toetamine">Toetamise võimalused</router-link></li>
-        <li><router-link to="/varjupaigast">Varjupaigast</router-link></li>
-          <li><router-link to="/kontakt">Kontakt</router-link></li>
+         <li><router-link to="/toetamine" exact-active-class="active">Toetamise võimalused</router-link></li>
+        <li><router-link to="/varjupaigast" exact-active-class="active">Varjupaigast</router-link></li>
+          <li><router-link to="/kontakt" exact-active-class="active">Kontakt</router-link></li>
 
     </ul>
 </nav>
