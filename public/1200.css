@@ -1,0 +1,36 @@
+
+@media only screen  and (max-width: 1200px) {
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.container {
+   width: 90%;
+	margin: 0 auto;
+}
+ 
+    
+    
+    .pilt {
+        height: 200px;
+    }
+    
+    .support-text {
+        padding-left: 30px;
+    }
+    
+}
+
+.main-map iframe{
+   width:500px; 
+    height: 350px;
+
+}
+
+.hamburger {
+	display: none;
+}
+

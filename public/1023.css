@@ -1,0 +1,64 @@
+@media only screen  and (max-width: 1023px) {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+}
+
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+   
+    
+    #nav {
+        display: none;
+    } 
+    
+    .hamburger {
+	font-size: 40px;
+	float: right;
+	display: block;
+	margin-top: -60px;
+	position: relative;
+	margin-right: 6%;
+   
+	
+	
+}
+    
+    footer {
+        height: 70%;
+		
+    }
+    
+
+.wrapper {
+    display: flex;
+       flex-flow: column wrap;
+    }
+    
+    .additing {
+        width: 50%;
+        height: 35%;
+    }       
+    .descrip{
+        float: right;
+        padding-top: 20px;
+        padding-right: 200px;
+        
+    }
+    .pilt {
+        margin-left: 50px;
+    }
+    
+   
+    
+}

@@ -1,0 +1,368 @@
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.container {
+   width: 1140px;
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+
+h1 {
+    background-image: url("akass.jpg");
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    padding-left: 120px;
+    font-size: 50px;
+    background-attachment: fixed;
+    color: #fff;
+
+    
+}
+
+body {
+    font-family: 'Arvo', serif;
+    background-color: #ffe6e6;
+}
+
+nav {
+    background:  #DEB887;
+    height: 60px;
+ 
+       
+}
+
+#nav {
+    list-style: none;
+    text-align: center;
+     
+}
+#nav li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    float: left;
+    padding: 30px 0px 10px 30px;
+    font-style: italic;
+}
+
+.search {
+    float: right;
+    
+    padding-right: 30px;
+    padding-top: 20px;
+  
+  
+}
+
+.active {
+    background-color: 
+}
+
+.mini {float: left;
+    padding-top: 80px;
+      
+}
+
+.map {
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+.telefon {
+   padding-bottom: 10px;
+}
+
+.footer-pic {
+	
+display: flex;
+justify-content: space-around;
+width: 15%;
+margin: 0px auto 30px auto;
+padding-top: 30px;
+}
+
+.icon {
+	height: 20px;
+}
+
+.logo-pilt {
+    height: 20px;
+}
+
+footer {
+    background-color: #DEB887;
+    color: #fff;
+}
+
+.copy {
+    letter-spacing: 2px;
+}
+h4 {
+padding-bottom: 30px;
+}
+.lisa {
+    text-transform: uppercase;
+     font-weight: bold;
+     letter-spacing: 2px;
+
+}
+
+.lisaandmed p, .copy {
+    text-align: center;
+}
+.lisaandmed {
+    padding-top: 20px;
+}
+
+/*Kaotatud loomad*/
+
+
+.wrapper {
+   
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;  
+  justify-content: space-around;
+  margin-top: 40px;
+    margin-bottom: 50px;
+}
+.box {
+	margin-right: 30px;
+ 
+    
+}
+
+.pilt {
+    height: 300px;
+    
+}
+
+
+.active {
+   text-decoration: none;
+   color: black;
+}
+
+/*kassid.html ja koerad.html*/
+
+.kaotatud {
+    
+}
+
+.descrip {
+    text-align: center;
+}
+.pildid {
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;  
+  justify-content: space-around;
+  margin-top: 70px;
+    
+   
+}
+
+.pildid div {
+    margin-bottom: 50px;
+}
+
+
+
+img {
+    height: 300px;
+}
+
+
+
+/*kass1*/
+
+.full-profile {
+
+}
+.cat-title {
+   font-size: 50px; 
+    text-align: center;
+    
+}
+
+.prof-one {
+    display: block;
+}
+
+.brown-cat {
+    float: left;
+    margin-right: 50px;
+}
+
+.brown-descrip {
+
+}
+
+span {
+    font-size: 30px;
+}
+
+tr {
+height: 40px;
+width: 50%;
+border-bottom: 1px solid grey;
+}
+
+th {
+    text-align: left;
+}
+
+.extra-text {
+    padding: 30px;
+}
+
+.contact-spacing {
+    padding-right: 25px;
+}
+ 
+
+/*Toetamise võimalused*/
+
+
+
+.support {
+    line-height: 145%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.links-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.links {
+    font-size: 20px; 
+    font-style: italic;
+    padding-top: 10px;
+        
+    }
+    
+
+.links a {
+     text-decoration: none;
+    color: grey;
+  
+}
+.links ul {
+    text-align: center;
+   
+}
+
+.links li {
+    list-style-type : none;
+}
+post-links {
+     float: left;
+    width: 25%;
+}
+
+
+.helper {
+    margin-top: 15px;
+}
+.support-header {
+   font-size: 35px;
+    padding-bottom: 30px;
+}
+.support-text {
+    float: right;
+    width: 60%;
+}
+.support-descrip {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 50px
+        
+  
+    
+}
+
+/*VARJUPAIGAST*/
+.shelter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    
+}
+
+.shelter-text {
+    padding-top: 15px;
+    margin-bottom: 60px;
+}
+.shelter-header {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Kontakti leht*/
+
+.main-map {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.full-contact {
+    float: right;
+    background-color: #ffffe6;
+    border-radius: 20px;
+    border-style: #fff solid;
+    margin-bottom: 30px;
+    
+}
+
+.info {
+    margin: 20px;
+    
+}
+
+.main-contact {
+    margin-top: 20px;
+
+}
+
+.additing{
+  background-color: #ffffe6;
+    border: 0,5px solid black;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.outline {
+    border-radius: 20px;
+}
+
+#missing, #animal-type, #breed-type, #subject, #finding-date, #chosen, #add-file, #personal-epost, #personal-tel {
+    margin-bottom: 10px;
+}
